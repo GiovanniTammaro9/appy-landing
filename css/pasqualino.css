@@ -32,11 +32,12 @@
 
 .section-2__bottom {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .section-2__bottom-left{
     font-size: 20px;
+    width: 300px;
     
     li{
         box-shadow: 10px 10px 15px rgba(184, 174, 174, 0.2);
@@ -49,8 +50,7 @@
     }
 
     li:active {
-        background-color: rgb(58, 186, 180);
-        
+        background-color: rgb(58, 186, 180);  
     }
 }
 
@@ -207,7 +207,7 @@ ul , li {
     display: flex;
     flex-direction: column;
     color: black;
-    padding: 20px;
+    padding: 25px;
 
     h4 {
         display: flex;
@@ -226,13 +226,14 @@ ul , li {
 
 .card-price__footer {
     text-align: center;
-    padding-top: 90px;
-    
-    button {
-        border: 1px solid rgb(255, 249, 249);
-        border-radius: 5px;
-        width: 80%;
-        height: 40px;
-        background-color: rgb(159 122 234) ;  
-    }
+    padding-top: 90px;   
+}
+
+button {
+    border: 1px solid rgb(255, 249, 249);
+    border-radius: 5px;
+    width: 80%;
+    height: 40px;
+    background-color: rgb(159 122 234);  
+    cursor:pointer;
 }
