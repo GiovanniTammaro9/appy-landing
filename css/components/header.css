@@ -107,13 +107,13 @@ header .header__top .header__top-right .mokup {
     height: 150px;
     display: flex;
     justify-content:space-evenly;
-    gap: 2rem;
+    gap: 1.5rem;
     margin: 7rem 0 4rem 0;
 }
 
 .header__bottom-wrapper .header__bottom .header__bottom-item {
-    width: calc(25% - 2rem);
-    padding: 2rem 4rem 3rem;
+    width: calc(25% - 1.5rem);
+    padding: 2rem 3.5rem 3rem;
     background-color: white;
 }
 
