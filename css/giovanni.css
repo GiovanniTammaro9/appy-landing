@@ -255,8 +255,8 @@ h1 {
 }
 
 .header__top-left-list ul li {
-    flex-direction: column;
-
+    flex-direction: row;
+    align-items: center;
     display: flex;
     margin-bottom: 0.5rem;
 
@@ -295,21 +295,21 @@ h1 {
     fill: none;
 }
 
-
-
-
-
 .header__top-right .illustration {
     position: absolute;
     height: auto;
     vertical-align: middle;
-    
-    
-    
-    
+    height: 624px;
+    width: 290px;
+    z-index: 1;
 }
 
-
+.header__top-right .mokup {
+    height: 654px;
+    width: 334px;
+    position: relative;
+    z-index: 2;
+}
 
 .header__bottom {
     padding-top: 100px;
