@@ -169,20 +169,20 @@
     font-size: 1.125rem;
  }
 
- .card-list img {
+.card-list img {
     position: relative;
     bottom: 35px;
     height: 45px;
     width: 100px;
     color: black;
- }
+}
 
-ul , li {
+/*ul , li {
     font-size: 1.125rem;
     margin-top: 20px;
     color: gray;
     list-style: none;  
-}     
+}*/
 
 .card-price {
     padding-left: 20px;
@@ -216,11 +216,11 @@ ul , li {
     padding-top: 90px;   
 }
 
-button {
+/*button {
     border: 1px solid rgb(255, 249, 249);
     border-radius: 5px;
     width: 80%;
     height: 40px;
     background-color: rgb(159 122 234);  
     cursor:pointer;
-}
+}*/

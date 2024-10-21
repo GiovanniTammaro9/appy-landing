@@ -1,0 +1,40 @@
+nav {
+    height: 80px;
+}
+
+nav .navbar__left {
+    display: flex;
+    align-items: center;
+    justify-content: flex start;
+}
+
+nav .navbar__left svg {
+    height: 32px;
+    width: 32px;
+}
+
+nav .navbar__menu {
+    flex-grow: 1;
+    padding: 0 20px;
+}
+
+nav .navbar__menu ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+nav .navbar__menu ul a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
+    font-size: 18px;
+}
+
+nav .navbar__right {
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+
+}
