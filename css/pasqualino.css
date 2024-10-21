@@ -13,21 +13,21 @@
 .sectiont-2__top {
     text-align: center;
     padding-top: 20px;
-    
-    h3 {
-        font-size: 60px;
-        margin-left: 20%;
-        margin-right: 20%;
-    }
+   
+}
 
-    p {
-        font-size: 30px;
-        margin-left: 14%;
-        margin-right: 14%;
-        margin-top: 20px;
-        margin-bottom: 60px;
-    }
-    
+.sectiont-2__top h3 {
+    font-size: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.sectiont-2__top p {
+    font-size: 30px;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 .section-2__bottom {
@@ -38,20 +38,20 @@
 .section-2__bottom-left{
     font-size: 20px;
     width: 300px;
-    
-    li{
-        box-shadow: 10px 10px 15px rgba(184, 174, 174, 0.2);
-        padding: 4px;
-        border-radius: 5px;
-        border: 1px solid rgb(228, 211, 211);
-        margin: 3px;
-        list-style-type: none;
-        cursor: pointer;
-    }
+}
 
-    li:active {
-        background-color: rgb(58, 186, 180);  
-    }
+.section-2__bottom-left li{
+    box-shadow: 10px 10px 15px rgba(184, 174, 174, 0.2);
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid rgb(228, 211, 211);
+    margin: 3px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.section-2__bottom-left li:active {
+    background-color: rgb(58, 186, 180);  
 }
 
 .section-2__bottom-right{
@@ -59,11 +59,11 @@
     grid-template-columns: repeat(2, 1fr); 
     grid-gap: 10px; 
     width: 50%; 
-    
-    section-2__bottom-right-item {
-        padding: 20px;
-        text-align: center;
-    }
+}
+
+.section-2__bottom-right .section-2__bottom-right-item {
+    padding: 20px;
+    text-align: center;
 }
 
 .section-3__top {
@@ -73,22 +73,20 @@
     margin-inline: 200px;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    
-    
-    
-    h3 {
-        font-size: 60px;
-        margin-left: 20%;
-        margin-right: 20%;
-    }
+}
 
-    p {
-        font-size: 30px;
-        margin-left: 90px;
-        margin-right: 90px;
-        margin-top: 20px;
-        margin-bottom: 60px;
-    }
+.section-3__top h3 {
+    font-size: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.section-3__top p {
+    font-size: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 .section-3__bottom-numbers {
@@ -110,7 +108,6 @@
     display: flex;
     justify-content: center; 
     align-items: center; 
-    
 }
 
 .section-3__bottom-images {
@@ -118,7 +115,7 @@
     justify-content: space-evenly;
     margin-left: 300px;
     margin-right: 300px;
-   }
+}
 
 .section-3__bottom-images-img img {
     display: block;
@@ -137,24 +134,22 @@
 .section-4__top {
     text-align: center;
     padding-top: 20px;
-    
-    
-    h3 {
-        font-size: 60px;
-        margin-left: 25%;
-        margin-right: 25%;
-    }
+}
 
-    p {
-        font-size: 1.25rem;
-        margin-left: 27%;
-        margin-right: 27%;
-        margin-top: 20px;
-        margin-bottom: 60px;
-        color: rgb(162 162 168) ;
-        line-height: 1.5;
-        
-    }
+.section-4__top h3 {
+    font-size: 60px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.section-4__top p {
+    font-size: 1.25rem;
+    margin-left: 27%;
+    margin-right: 27%;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    color: rgb(162 162 168) ;
+    line-height: 1.5; 
 }
 
 .section-4__bottom {
@@ -166,33 +161,28 @@
     display: flex;
      position:  relative ;
      right: -30px;
-     
-     
-     h5 {
-        position: relative;
-        right: -135px;
-        font-size: 1.125rem;
-        
-     }
-
-     img {
-        position: relative;
-        bottom: 35px;
-        height: 45px;
-        width: 100px;
-        color: black;
-     }
 }
 
+.card-list h5 {
+    position: relative;
+    right: -135px;
+    font-size: 1.125rem;
+ }
+
+ .card-list img {
+    position: relative;
+    bottom: 35px;
+    height: 45px;
+    width: 100px;
+    color: black;
+ }
 
 ul , li {
     font-size: 1.125rem;
     margin-top: 20px;
     color: gray;
     list-style: none;  
-   
 }     
-
 
 .card-price {
     padding-left: 20px;
@@ -202,27 +192,24 @@ ul , li {
     width: 250px;
 }
 
-
 .card-price__body {
     display: flex;
     flex-direction: column;
     color: black;
     padding: 25px;
-
-    h4 {
-        display: flex;
-        justify-content: start;
-        font-size: 1.25rem;
-        text-align: start;
-        
-    }
-
-    p {
-        text-align: center;
-        margin-top: 25px;
-    }
 }
 
+.card-price__body h4 {
+    display: flex;
+    justify-content: start;
+    font-size: 1.25rem;
+    text-align: start;
+}
+
+.card-price__body p {
+    text-align: center;
+    margin-top: 25px;
+}
 
 .card-price__footer {
     text-align: center;
