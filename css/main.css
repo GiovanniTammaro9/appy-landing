@@ -1,17 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-@import url("./root.css");
-@import url("./utilities.css");
-
-@import url("./components/navbar.css");
-@import url("./components/header.css");
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
     color: var(--text-color);
+}
+
+html, body {
+    font-size: 16px;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -61,4 +59,37 @@ ul, li {
 .wrapper .container {
     width: 100%;
     max-width: var(--max-width);
+}
+
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: #e4e4e7;
+    margin: 100px 0;
+}
+
+.section-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.section-title .section-title__container {
+    width: 100%;
+    max-width: 50rem;
+}
+
+.section-title .section-title__container h2 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.section-title .section-title__container p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.825rem;
 }

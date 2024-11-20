@@ -1,686 +1,1064 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/index.css" />
+        <link rel="stylesheet" href="./css/giovanni.css" />
+        <link rel="stylesheet" href="./css/pasqualino.css" />
+        <link rel="stylesheet" href="./css/redi.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/giovanni.css" />
-    <link rel="stylesheet" href="./css/pasqualino.css" />
-    <link rel="stylesheet" href="./css/redi.css" />
-</head>
-
-<body>
-    <!--GIOVANNI-->
-    <nav class="wrapper">
-        <div class="container flex items-center">
-            <div class="navbar__left">
-                <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                        <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="logo_a">
-                            <stop stop-color="#3ABAB4" offset="0%"></stop>
-                            <stop stop-color="#7F9CF5" offset="100%"></stop>
-                        </linearGradient>
-                        <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="logo_b">
-                            <stop stop-color="#3ABAB4" offset="0%"></stop>
-                            <stop stop-color="#3ABAB4" stop-opacity="0" offset="100%"></stop>
-                        </linearGradient>
-                    </defs>
-                    <path d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z" fill="url(#logo_a)">
-                    </path>
-                    <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#logo_b)">
-                    </path>
-                </svg>
-            </div>
-            <div class="navbar__menu">
-                <ul>
-                    <li>
-                        <a class="link1" href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a class="link2" href="blog.html">Blog</a>
-                    </li>
-                    <li>
-                        <a class="link3" href="testimonials.html">Testimonials</a>
-                    </li>
-                    <li>
-                        <a class="link4" href="resources.html">Resources</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="navbar__right">
-                <div class="request-code">
-                    <button class="request-button">Request code</button>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <header class="wrapper">
-        <div class="container flex flex-col">
-            <div class="header__top">
-                <div class="header__top-left">
-                    <h1>Your website,<br>reimagined</h1>
-                    <p>
-                        Our landing page template works on all device,so you only have<br> to set it up once, and get
-                        beautiful results forever
-                    </p>
-                    <form class="header__top-cta">
-                        <input type="tel" placeholder="Phone number" aria-label="phone number">
-                        <button type="submit">Request code</button>
-                    </form>
-                    <div class="header__top-left-list">
-                        <ul>
-                            <li class="header__top-left-list-item">
-                                <svg class="text-teal-400 c4u31 c2npy cui34 c39kt cwc3u" viewBox="0 0 12 12"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z">
-                                    </path>
-                                </svg>
-                                <span id="span1">Lorem ipsum is placeholder text commonly.</span>
-                            </li>
-                            <li class="header__top-left-list-item">
-                                <svg class="text-teal-400 c4u31 c2npy cui34 c39kt cwc3u" viewBox="0 0 12 12"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z">
-                                    </path>
-                                </svg>
-                                <span id="span2">Excepteur sint occaecat text commonly.</span>
-                            </li>
-                            <li class="header__top-left-list-item">
-                                <svg class="text-teal-400 c4u31 c2npy cui34 c39kt cwc3u" viewBox="0 0 12 12"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z">
-                                    </path>
-                                </svg>
-                                <span id="span3">Lorem ipsum is placeholder text commonly.</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="header__top-right">
-                    <svg class="cey85 cimtg cgk3d cy5gd cdwzm codcr" aria-hidden="true" width="678" height="634"
-                        viewBox="0 0 678 634" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="240" cy="394" r="240" fill="url(#piphoneill_paint0_radial)" fill-opacity=".4">
-                        </circle>
-                        <circle cx="438" cy="240" r="240" fill="url(#piphoneill_paint1_radial)" fill-opacity=".6">
-                        </circle>
+    <body>
+        <!--GIOVANNI-->
+        <nav class="wrapper">
+            <div class="container flex items-center">
+                <div class="navbar__left">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                         <defs>
-                            <radialGradient id="piphoneill_paint0_radial" cx="0" cy="0" r="1"
-                                gradientUnits="userSpaceOnUse"
-                                gradientTransform="rotate(90 -77 317) scale(189.054)">
-                                <stop stop-color="#667EEA"></stop>
-                                <stop offset="1" stop-color="#667EEA" stop-opacity=".01"></stop>
-                            </radialGradient>
-                            <radialGradient id="piphoneill_paint1_radial" cx="0" cy="0" r="1"
-                                gradientUnits="userSpaceOnUse" gradientTransform="rotate(90 99 339) scale(189.054)">
-                                <stop stop-color="#9F7AEA"></stop>
-                                <stop offset="1" stop-color="#9F7AEA" stop-opacity=".01"></stop>
-                            </radialGradient>
+                            <linearGradient
+                                x1="26%"
+                                y1="100%"
+                                x2="100%"
+                                y2="100%"
+                                id="logo_a"
+                            >
+                                <stop stop-color="#3ABAB4" offset="0%"></stop>
+                                <stop stop-color="#7F9CF5" offset="100%"></stop>
+                            </linearGradient>
+                            <linearGradient
+                                x1="26%"
+                                y1="100%"
+                                x2="100%"
+                                y2="100%"
+                                id="logo_b"
+                            >
+                                <stop stop-color="#3ABAB4" offset="0%"></stop>
+                                <stop
+                                    stop-color="#3ABAB4"
+                                    stop-opacity="0"
+                                    offset="100%"
+                                ></stop>
+                            </linearGradient>
                         </defs>
+                        <path
+                            d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z"
+                            fill="url(#logo_a)"
+                        ></path>
+                        <path
+                            d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z"
+                            fill="url(#logo_b)"
+                        ></path>
                     </svg>
-                    <img class="illustration" src="css/images/mockup-image-01 (1).jpg" 
-                            alt="features illustration">
-                    <img class="mokup" src="css/images/iphone-mockup.png" 
-                        alt="iphone mokup">
                 </div>
-            </div>
-        </div>    
-    </header>
-    <div class="wrapper header__bottom-wrapper">
-        <div class="container">
-            <div class="header__bottom">
-                <div class="header__bottom-item">
-                    <div class="header__bottom-item-top">2.4M</div>
-                    <div class="header__bottom-item-bottom">Days turn around</div>
+                <div class="navbar__menu">
+                    <ul>
+                        <li>
+                            <a class="link1" href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a class="link2" href="blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a class="link3" href="testimonials.html"
+                                >Testimonials</a
+                            >
+                        </li>
+                        <li>
+                            <a class="link4" href="resources.html">Resources</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="header__bottom-item">
-                    <div class="header__bottom-item-top">7M</div>
-                    <div class="header__bottom-item-bottom">Days turn around</div>
-                </div>
-                <div class="header__bottom-item">
-                    <div class="header__bottom-item-top">7.4%</div>
-                    <div class="header__bottom-item-bottom">Days turn arounde</div>
-                </div>
-                <div class="header__bottom-item">
-                    <div class="header__bottom-item-top">49k</div>
-                    <div class="header__bottom-item-bottom">Days turn around</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <main>
-        <section id="section-1" class="wrapper">
-            <div class="container">
-                <div class="section-1__top">
-                    <h2>from rough design files, to<br> powerful products</h2>
-                    <p>duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat<br>
-                        nulla
-                        pariatur
-                        excepteur sint occacet cupidatat</p>
-                </div>
-                <div class="section-1__slide">
-                    <img src="css/images/carousel-item-01.jpg" width="540" height="460" alt="course item01">
-                    <img src="css/images/carousel-item-02.jpg" width="540" height="460" alt="course item02">
-                    <img src="css/images/carousel-item-03.jpg" width="540" height="460" alt="course item03">
-                    <img src="css/images/carousel-item-04.jpg" width="540" height="460" alt="course item04">
-                    <img src="css/images/carousel-item-05.jpg" width="540" height="460" alt="course item05">
-
-                    <div class="section1__slide-href">
-                        <a id="one" href="#0">learn more</a>
-                        <a id="two" href="#0">creative service</a>
-                    </div>
-                </div>
-                <div class="section-1__bottom">
-                    <div class="section-1__bottom-button">
-                        <div class="bottone-1">
-                            <button id="first">
-                                <svg class="text-white cxzp0 ct7at c0atf c4u31 clq5w ccb29 ceo83 ckyke cca3l"
-                                    viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M6.7 14.7l1.4-1.4L3.8 9H16V7H3.8l4.3-4.3-1.4-1.4L0 8z"></path>
-                                </svg>
-                                <span>previous</span>
-                            </button>
-                        </div>
-                        <div class="vuoto"></div>
-
-                        <div class="bottone-2">
-                            <button id="second">
-                                <svg class="text-white cxzp0 ct7at c0atf c4u31 clq5w ccb29 ceo83 ckyke cca3l"
-                                    viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M9.3 14.7l-1.4-1.4L12.2 9H0V7h12.2L7.9 2.7l1.4-1.4L16 8z"></path>
-                                </svg>
-                                <span>next</span>
-
-                            </button>
-                        </div>
+                <div class="navbar__right">
+                    <div class="request-code">
+                        <button class="request-button">Request code</button>
                     </div>
                 </div>
             </div>
-        </section>
-        <!--END GIOVANNI-->
-        <!--PASQUALINO-->
-        <section id="section-2" class="wrapper">
-            <div class="container">
-                <div class="sectiont-2__top">
-                    <h3>
-                        Turn your ideas into reality in seconds
-                    </h3>
-                    <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur excepteur sint occaecat cupidatat.
-                    </p>
-                </div>
-                <div class="section-2__bottom">
-                    <div class="section-2__bottom-left">
-                        <ul>
-                            <li>Getting Started</li>
-                            <li>Collection list</li>
-                            <li>Element Hierarchy</li>
-                            <li>Styling Basics</li>
-                            <li>Image Field</li>
-                        </ul>
-                    </div>
-                    <div class="section-2__bottom-right">
-                        <div class="section-2__bottom-right-item">
-                            <img src="https://preview.cruip.com/appy/images/video-thumb.jpg" alt="" height="250px"
-                                width="350px">
-                        </div>
-                        <div class="section-2__bottom-right-item">
-                            <img src="https://preview.cruip.com/appy/images/video-thumb.jpg" alt="" height="250px"
-                                width="350px">
-                        </div>
-                        <div class="section-2__bottom-right-item">
-                            <img src="https://preview.cruip.com/appy/images/video-thumb.jpg" alt="" height="250px"
-                                width="350px">
-                        </div>
-                        <div class="section-2__bottom-right-item">
-                            <img src="https://preview.cruip.com/appy/images/video-thumb.jpg" alt="" height="250px"
-                                width="350px">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="section-3" class="wrapper">
-            <div class="container">
-                <div class="section-3__top">
-                    <h3>Build and style every element to perfection</h3>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur excepteur sint occaecat cupidatat.</p>
-                </div>
-                <div class="section-3__bottom">
-                    <div class="section-3__bottom-numbers">
-                        <div class="section-3__bottom-numbers-circle">
-                            <span>1</span>
-                        </div>
-                        <div class="section-3__bottom-numbers-circle">
-                            <span>2</span>
-                        </div>
-                        <div class="section-3__bottom-numbers-circle">
-                            <span>3</span>
-                        </div>
-                    </div>
-                    <div class="section-3__bottom-images">
-                        <div class="section-3__bottom-images-img">
-                            <img src="https://preview.cruip.com/appy/images/mockup-image-03.jpg" alt=""
-                                height="500px" width="250px">
-                        </div>
-                        <div class="section-3__bottom-images-img">
-                            <img src="https://preview.cruip.com/appy/images/mockup-image-02.jpg" alt=""
-                                height="500px" width="250px">
-                        </div>
-                        <div class="section-3__bottom-images-img">
-                            <img src="https://preview.cruip.com/appy/images/mockup-image-04.jpg" alt=""
-                                height="500px" width="250px">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="section-4" class="wrapper">
-            <div class="container">
-                <div class="section-4__top">
-                    <h3>Start building for free, then add a plan to go live</h3>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                        laborum — semper quis lectus nulla.</p>
-                </div>
-                <div class="section-4__bottom">
-                    <div class="card-list">
-                        <h5>All plans include:</h5>
-                        <ul>
-                            <li>Unlimited domains</li>
-                            <li>Unlimited web pages</li>
-                            <li>Conversion analytics</li>
-                            <li>A/B testing</li>
-                            <li>Exclusive channels</li>
-                            <li>Free resources</li>
-                            <li>Landing page builder</li>
-                            <li>Smart forms and reports</li>
-                        </ul>
-                        <img src="https://img.freepik.com/premium-photo/smooth-handdrawn-arrow-with-flowing-lines-curved-edges-black-marker-white-background-minimalist-design-handrawn-arrow-with-black-marker_1069077-11164.jpg"
-                            alt="" width="65px" height="45px">
-                    </div>
-                    <div class="card-price">
-                        <div class="card-price__body">
-                            <h4>Yearly -40%</h4>
-                            <p>$27/billed yearly</p>
-                            <p>— Lorem ipsum dolor amet sit consect adipiscing.</p>
-                        </div>
-                        <div class="card-price__footer">
-                            <button>Go Premium</button>
-                        </div>
-                    </div>
-                    <div class="card-price">
-                        <div class="card-price__body">
-                            <h4>Monthly</h4>
-                            <p>$47/billed yearly</p>
-                            <p>— Lorem ipsum dolor amet sit consect adipiscing.</p>
-                        </div>
-                        <div class="card-price__footer">
-                            <button>Go Premium</button>
-                        </div>
-                    </div>
-                    <div class="card-price">
-                        <div class="card-price__body">
-                            <h4>Lifetime</h4>
-                            <p>$127/one-time</p>
-                            <p>— Lorem ipsum dolor amet sit consect adipiscing.</p>
-                        </div>
-                        <div class="card-price__footer">
-                            <button>Go Premium</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--END PASQUALINO-->
-        <!--REDI-->
-
-        <!--sezione5-->
-        <section id="section-5" class="wrapper">
-            <div class="container 1">
-                <div class="card__top">
-                    <div class="card-review card__top-left">
-                        <div class="card-review__header">
-                            <img src="https://preview.cruip.com/appy/images/testimonial-01.jpg"
-                                alt="Ragazzo che sorride">
-                        </div>
-                        <div class="card-review__body">
-                            <p>This is a great app and the value is amazing. Since I purchased it I have been using
-                                it
-                                everyday!
-                                Highly recommend it.</p>
-                            <p>
-                                —Andy Croll, <a href="link">Appy.com</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card-review card__top-right">
-                        <div class="card-review__header">
-                            <img src="https://preview.cruip.com/appy/images/testimonial-02.jpg"
-                                alt="Ragazza sorridente">
-                        </div>
-                        <div class="card-review__body">
-                            <p>This is a great app and the value is amazing. Since I purchased it I have been using
-                                it
-                                everyday!
-                                Highly recommend it.</p>
-                            <p>
-                                —Patricia Lepisov, <a href="link">Nobi Bank</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__bottom">
-                    <div class="card-review card__bottom-left">
-                        <div class="card-review__header">
-                            <img src="https://preview.cruip.com/appy/images/testimonial-03.jpg"
-                                alt="Ragazza di profilo">
-                        </div>
-                        <div class="card-review__body">
-                            <p>This is a great app and the value is amazing. Since I purchased it I have been using
-                                it
-                                everyday!
-                                Highly recommend it.</p>
-                            <p>
-                                —Zhenya Ritz, <a href="link">Sync</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card-review card__bottom-right">
-                        <div class="card-review__header">
-                            <img src="https://preview.cruip.com/appy/images/testimonial-04.jpg" alt="Ragazza mora">
-                        </div>
-                        <div class="card-review__body">
-                            <p>This is a great app and the value is amazing. Since I purchased it I have been using
-                                it
-                                everyday!
-                                Highly recommend it.</p>
-                            <p>
-                                —Lisa Champ, <a href="link">Appicu</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--sezione6-->
-        <section id="section-6" class="wrapper">
-            <div class="container">
-                <div class="section-6__top">
-                    <h3>Put clarity at the center of your website</h3>
-                </div>
-                <div class="section-6__bottom">
-                    <div class="card-info">
-                        <div class="card-info__header">
-                            <svg class="cyws0 csz25 cchtt" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
-                                width="20" height="20">
-                                <path class="c4u31"
-                                    d="M19 18.414l-4 4L9.586 17l.707-.707L12 14.586V8.414l-5-5L4.414 6l6.293 6.293-1.414 1.414L1.586 6 7 .586l7 7v5l8.463-8.463a3.828 3.828 0 115.414 5.414L21 16.414v6.172l5 5L28.586 25l-6.293-6.293 1.414-1.414L31.414 25 26 30.414l-7-7v-5zm-4 1.172L26.463 8.123a1.828 1.828 0 10-2.586-2.586L12.414 17 15 19.586zM11 30v2C4.925 32 0 27.075 0 21h2a9 9 0 009 9zm0-5v2a6 6 0 01-6-6h2a4 4 0 004 4z"
-                                    fill-rule="nonzero"></path>
-                            </svg>
-                        </div>
-                        <div class="card-info__body">
-                            <h4>Simpler sharing</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                        </div>
-                        <div class="card-info__footer">
-                            <a href="#">
-                                <svg class="ca6it crgjb clq5w ccb29 ceo83 cgdju c1xg5 cr68y cj7c4"
-                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
-                                    <path class="c4u31"
-                                        d="M13 11V5.057L22.72 12 13 18.943V13H2v-2h11zm2 4.057L19.28 12 15 8.943v6.114z">
-                                    </path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card-info">
-                        <div class="card-info__header">
-                            <svg class="cyws0 csz25 cchtt" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
-                                width="20" height="20">
-                                <path class="c4u31"
-                                    d="M19 18.414l-4 4L9.586 17l.707-.707L12 14.586V8.414l-5-5L4.414 6l6.293 6.293-1.414 1.414L1.586 6 7 .586l7 7v5l8.463-8.463a3.828 3.828 0 115.414 5.414L21 16.414v6.172l5 5L28.586 25l-6.293-6.293 1.414-1.414L31.414 25 26 30.414l-7-7v-5zm-4 1.172L26.463 8.123a1.828 1.828 0 10-2.586-2.586L12.414 17 15 19.586zM11 30v2C4.925 32 0 27.075 0 21h2a9 9 0 009 9zm0-5v2a6 6 0 01-6-6h2a4 4 0 004 4z"
-                                    fill-rule="nonzero"></path>
-                            </svg>
-                        </div>
-                        <div class="card-info__body">
-                            <h4>Simpler sharing</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                        </div>
-                        <div class="card-info__footer">
-                            <a href="#">
-                                <svg class="ca6it crgjb clq5w ccb29 ceo83 cgdju c1xg5 cr68y cj7c4"
-                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
-                                    <path class="c4u31"
-                                        d="M13 11V5.057L22.72 12 13 18.943V13H2v-2h11zm2 4.057L19.28 12 15 8.943v6.114z">
-                                    </path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card-info">
-                        <div class="card-info__header">
-                            <svg class="cyws0 csz25 cchtt" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
-                                width="20" height="20">
-                                <path class="c4u31"
-                                    d="M19 18.414l-4 4L9.586 17l.707-.707L12 14.586V8.414l-5-5L4.414 6l6.293 6.293-1.414 1.414L1.586 6 7 .586l7 7v5l8.463-8.463a3.828 3.828 0 115.414 5.414L21 16.414v6.172l5 5L28.586 25l-6.293-6.293 1.414-1.414L31.414 25 26 30.414l-7-7v-5zm-4 1.172L26.463 8.123a1.828 1.828 0 10-2.586-2.586L12.414 17 15 19.586zM11 30v2C4.925 32 0 27.075 0 21h2a9 9 0 009 9zm0-5v2a6 6 0 01-6-6h2a4 4 0 004 4z"
-                                    fill-rule="nonzero"></path>
-                            </svg>
-                        </div>
-                        <div class="card-info__body">
-                            <h4>Simpler sharing</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                        </div>
-                        <div class="card-info__footer">
-                            <a href="#">
-                                <svg class="ca6it crgjb clq5w ccb29 ceo83 cgdju c1xg5 cr68y cj7c4"
-                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
-                                    <path class="c4u31"
-                                        d="M13 11V5.057L22.72 12 13 18.943V13H2v-2h11zm2 4.057L19.28 12 15 8.943v6.114z">
-                                    </path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card-info">
-                        <div class="card-info__header">
-                            <svg class="cyws0 csz25 cchtt" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
-                                width="20" height="20">
-                                <path class="c4u31"
-                                    d="M19 18.414l-4 4L9.586 17l.707-.707L12 14.586V8.414l-5-5L4.414 6l6.293 6.293-1.414 1.414L1.586 6 7 .586l7 7v5l8.463-8.463a3.828 3.828 0 115.414 5.414L21 16.414v6.172l5 5L28.586 25l-6.293-6.293 1.414-1.414L31.414 25 26 30.414l-7-7v-5zm-4 1.172L26.463 8.123a1.828 1.828 0 10-2.586-2.586L12.414 17 15 19.586zM11 30v2C4.925 32 0 27.075 0 21h2a9 9 0 009 9zm0-5v2a6 6 0 01-6-6h2a4 4 0 004 4z"
-                                    fill-rule="nonzero"></path>
-                            </svg>
-                        </div>
-                        <div class="card-info__body">
-                            <h4>Simpler sharing</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                        </div>
-                        <div class="card-info__footer">
-                            <a href="#">
-                                <svg class="ca6it crgjb clq5w ccb29 ceo83 cgdju c1xg5 cr68y cj7c4"
-                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
-                                    <path class="c4u31"
-                                        d="M13 11V5.057L22.72 12 13 18.943V13H2v-2h11zm2 4.057L19.28 12 15 8.943v6.114z">
-                                    </path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--sezione banner-->
-        <section id="section-7" class="wrapper">
-            <div class="container">
-                <div class="banner">
-                    <div class="banner__left">
-                        <h3 class="cta-title">Free until you're ready to launch</h3>
-                    </div>
-                    <div class="banner__right">
-                        <form action="" method="get">
-                            <input type="tel" placeholder="Phone number">
+        </nav>
+        <header class="wrapper">
+            <div class="container flex flex-col">
+                <div class="header__top">
+                    <div class="header__top-left">
+                        <h1>Your website,<br />reimagined</h1>
+                        <p>
+                            Our landing page template works on all device,so you
+                            only have<br />
+                            to set it up once, and get beautiful results forever
+                        </p>
+                        <form class="header__top-cta">
+                            <input
+                                type="tel"
+                                placeholder="Phone number"
+                                aria-label="phone number"
+                            />
                             <button type="submit">Request code</button>
                         </form>
+                        <div class="header__top-left-list">
+                            <ul>
+                                <li class="header__top-left-list-item">
+                                    <svg
+                                        class="text-teal-400 c4u31 c2npy cui34 c39kt cwc3u"
+                                        viewBox="0 0 12 12"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
+                                        ></path>
+                                    </svg>
+                                    <span id="span1"
+                                        >Lorem ipsum is placeholder text
+                                        commonly.</span
+                                    >
+                                </li>
+                                <li class="header__top-left-list-item">
+                                    <svg
+                                        class="text-teal-400 c4u31 c2npy cui34 c39kt cwc3u"
+                                        viewBox="0 0 12 12"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
+                                        ></path>
+                                    </svg>
+                                    <span id="span2"
+                                        >Excepteur sint occaecat text
+                                        commonly.</span
+                                    >
+                                </li>
+                                <li class="header__top-left-list-item">
+                                    <svg
+                                        class="text-teal-400 c4u31 c2npy cui34 c39kt cwc3u"
+                                        viewBox="0 0 12 12"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
+                                        ></path>
+                                    </svg>
+                                    <span id="span3"
+                                        >Lorem ipsum is placeholder text
+                                        commonly.</span
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header__top-right">
+                        <svg
+                            class="cey85 cimtg cgk3d cy5gd cdwzm codcr"
+                            aria-hidden="true"
+                            width="678"
+                            height="634"
+                            viewBox="0 0 678 634"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <circle
+                                cx="240"
+                                cy="394"
+                                r="240"
+                                fill="url(#piphoneill_paint0_radial)"
+                                fill-opacity=".4"
+                            ></circle>
+                            <circle
+                                cx="438"
+                                cy="240"
+                                r="240"
+                                fill="url(#piphoneill_paint1_radial)"
+                                fill-opacity=".6"
+                            ></circle>
+                            <defs>
+                                <radialGradient
+                                    id="piphoneill_paint0_radial"
+                                    cx="0"
+                                    cy="0"
+                                    r="1"
+                                    gradientUnits="userSpaceOnUse"
+                                    gradientTransform="rotate(90 -77 317) scale(189.054)"
+                                >
+                                    <stop stop-color="#667EEA"></stop>
+                                    <stop
+                                        offset="1"
+                                        stop-color="#667EEA"
+                                        stop-opacity=".01"
+                                    ></stop>
+                                </radialGradient>
+                                <radialGradient
+                                    id="piphoneill_paint1_radial"
+                                    cx="0"
+                                    cy="0"
+                                    r="1"
+                                    gradientUnits="userSpaceOnUse"
+                                    gradientTransform="rotate(90 99 339) scale(189.054)"
+                                >
+                                    <stop stop-color="#9F7AEA"></stop>
+                                    <stop
+                                        offset="1"
+                                        stop-color="#9F7AEA"
+                                        stop-opacity=".01"
+                                    ></stop>
+                                </radialGradient>
+                            </defs>
+                        </svg>
+                        <img
+                            class="illustration"
+                            src="css/images/mockup-image-01 (1).jpg"
+                            alt="features illustration"
+                        />
+                        <img
+                            class="mokup"
+                            src="css/images/iphone-mockup.png"
+                            alt="iphone mokup"
+                        />
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
-    <!--sezione footer-->
-    <footer>
-        <div class="footer__top">
-            <div class="footer__top-left">
-                <svg class="csz25 cchtt" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                        <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_a">
-                            <stop stop-color="#3ABAB4" offset="0%"></stop>
-                            <stop stop-color="#7F9CF5" offset="100%"></stop>
-                        </linearGradient>
-                        <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_b">
-                            <stop stop-color="#3ABAB4" offset="0%"></stop>
-                            <stop stop-color="#3ABAB4" stop-opacity="0" offset="100%"></stop>
-                        </linearGradient>
-                    </defs>
-                    <path d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z" fill="url(#flogo_a)">
-                    </path>
-                    <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#flogo_b)">
-                    </path>
-                </svg>
-            </div>
-            <div class="footer__top-right">
-                <div class="footer__top-right-col">
-                    <h6>PRODUCTS</h6>
-                    <ul>
-                        <li>
-                            <a href="#">Drag And Drop</a>
-                        </li>
-                        <li>
-                            <a href="#">Visual Studio X</a>
-                        </li>
-                        <li>
-                            <a href="#">Easy Content</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__top-right-col">
-                    <h6>RESOURCES</h6>
-                    <ul>
-                        <li>
-                            <a href="#">Industries and tools</a>
-                        </li>
-                        <li>
-                            <a href="#">Use cases</a>
-                        </li>
-                        <li>
-                            <a href="#">Blog</a>
-                        </li>
-                        <li>
-                            <a href="#">Online events</a>
-                        </li>
-                        <li>
-                            <a href="#">Nostrud exercitation</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__top-right-col">
-                    <h6>COMPANY</h6>
-                    <ul>
-                        <li>
-                            <a href="#">Diversity & inclusion</a>
-                        </li>
-                        <li>
-                            <a href="#">About us</a>
-                        </li>
-                        <li>
-                            <a href="#">Press</a>
-                        </li>
-                        <li>
-                            <a href="#">Customer stories</a>
-                        </li>
-                        <li>
-                            <a href="#">Online communities</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__top-right-col">
-                    <h6>SUPPORT</h6>
-                    <ul>
-                        <li>
-                            <a href="#">Documentation</a>
-                        </li>
-                        <li>
-                            <a href="#">Tutorials & guides</a>
-                        </li>
-                        <li>
-                            <a href="#">Webinars</a>
-                        </li>
-                        <li>
-                            <a href="#">Open-source</a>
-                        </li>
-                    </ul>
+        </header>
+        <div class="wrapper header__bottom-wrapper">
+            <div class="container">
+                <div class="header__bottom">
+                    <div class="header__bottom-item">
+                        <div class="header__bottom-item-top">2.4M</div>
+                        <div class="header__bottom-item-bottom">
+                            Days turn around
+                        </div>
+                    </div>
+                    <div class="header__bottom-item">
+                        <div class="header__bottom-item-top">7M</div>
+                        <div class="header__bottom-item-bottom">
+                            Days turn around
+                        </div>
+                    </div>
+                    <div class="header__bottom-item">
+                        <div class="header__bottom-item-top">7.4%</div>
+                        <div class="header__bottom-item-bottom">
+                            Days turn arounde
+                        </div>
+                    </div>
+                    <div class="header__bottom-item">
+                        <div class="header__bottom-item-top">49k</div>
+                        <div class="header__bottom-item-bottom">
+                            Days turn around
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-        <div class="footer__bottom">
-            <div class="footer__bottom-left">
-                <p>© Cruip.com. All rights reserved.</p>
-            </div>
-            <div class="footer__bottom-center">
-                <a href="#0">Terms</a>
-                <a href="#0">Privacy Policy</a>
-            </div>
-            <div class="footer__bottom-right">
-                <a href="link">
-                    <svg xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="m13.063 9 3.495 4.475L20.601 9h2.454l-5.359 5.931L24 23h-4.938l-3.866-4.893L10.771 23H8.316l5.735-6.342L8 9h5.063Zm-.74 1.347h-1.457l8.875 11.232h1.36l-8.778-11.232Z">
-                        </path>
-                    </svg>
-                </a>
-                <a href="link">
-                    <svg xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M16 8.2c-4.4 0-8 3.6-8 8 0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4V22c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.3 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6-.2 1.3-.3 2-.3s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.7-3.7 3.9.3.4.6.9.6 1.6v2.2c0 .2.1.5.6.4 3.2-1.1 5.5-4.1 5.5-7.6-.1-4.4-3.7-8-8.1-8z">
-                        </path>
-                    </svg>
-                </a>
-                <a href="link">
-                    <svg xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M14.023 24L14 17h-3v-3h3v-2c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V14H21l-1 3h-2.72v7h-3.257z">
-                        </path>
-                    </svg>
-                </a>
-                <a href="link">
-                    <svg xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="20.145" cy="11.892" r="1"></circle>
-                        <path
-                            d="M16 20c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4zm0-6c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2z">
-                        </path>
-                        <path
-                            d="M20 24h-8c-2.056 0-4-1.944-4-4v-8c0-2.056 1.944-4 4-4h8c2.056 0 4 1.944 4 4v8c0 2.056-1.944 4-4 4zm-8-14c-.935 0-2 1.065-2 2v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2v-8c0-.935-1.065-2-2-2h-8z">
-                        </path>
-                    </svg>
-                </a>
-                <a href="link">
-                    <svg xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M23.3 8H8.7c-.4 0-.7.3-.7.7v14.7c0 .3.3.6.7.6h14.7c.4 0 .7-.3.7-.7V8.7c-.1-.4-.4-.7-.8-.7zM12.7 21.6h-2.3V14h2.4v7.6h-.1zM11.6 13c-.8 0-1.4-.7-1.4-1.4 0-.8.6-1.4 1.4-1.4.8 0 1.4.6 1.4 1.4-.1.7-.7 1.4-1.4 1.4zm10 8.6h-2.4v-3.7c0-.9 0-2-1.2-2s-1.4 1-1.4 2v3.8h-2.4V14h2.3v1c.3-.6 1.1-1.2 2.2-1.2 2.4 0 2.8 1.6 2.8 3.6v4.2h.1z">
-                    </path>
-                </svg>
-                </a>
-            </div>
-        </div>
-    </footer>
-    <!--END REDI-->
-</body>
+        <main>
+            <section id="section-1" class="wrapper">
+                <div class="container">
+                    <div class="section-title">
+                        <div class="section-title__container">
+                            <h2>
+                                From rough design files, to powerful products
+                            </h2>
+                            <p>
+                                duis aute irure dolor in reprehenderit in
+                                voluptate velit esse cillum dolore eu fugiat<br />
+                                nulla pariatur excepteur sint occacet cupidatat
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-1__slide">
+                    <img
+                        src="css/images/carousel-item-01.jpg"
+                        width="540"
+                        height="460"
+                        alt="course item01"
+                    />
+                    <img
+                        src="css/images/carousel-item-02.jpg"
+                        width="540"
+                        height="460"
+                        alt="course item02"
+                    />
+                    <img
+                        src="css/images/carousel-item-03.jpg"
+                        width="540"
+                        height="460"
+                        alt="course item03"
+                    />
+                    <img
+                        src="css/images/carousel-item-04.jpg"
+                        width="540"
+                        height="460"
+                        alt="course item04"
+                    />
+                    <img
+                        src="css/images/carousel-item-05.jpg"
+                        width="540"
+                        height="460"
+                        alt="course item05"
+                    />
+                </div>
+                <div class="container">
+                    <div class="section-1__slide-buttons">
+                        <button>
+                            <svg
+                                viewBox="0 0 16 16"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M6.7 14.7l1.4-1.4L3.8 9H16V7H3.8l4.3-4.3-1.4-1.4L0 8z"
+                                ></path>
+                            </svg>
+                        </button>
+                        <button>
+                            <svg
+                                viewBox="0 0 16 16"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M9.3 14.7l-1.4-1.4L12.2 9H0V7h12.2L7.9 2.7l1.4-1.4L16 8z"
+                                ></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <!--END GIOVANNI-->
+            <!--PASQUALINO-->
+            <section id="section-2" class="wrapper">
+                <div class="container">
+                    <div class="section-title">
+                        <div class="section-title__container">
+                            <h2>Turn your ideas into reality in seconds</h2>
+                            <p>
+                                Duis aute irure dolor in reprehenderit in
+                                voluptate velit esse cillum dolore eu fugiat
+                                nulla pariatur excepteur sint occaecat
+                                cupidatat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section-2__bottom flex">
+                        <div class="section-2__bottom-left">
+                            <ul>
+                                <li class="active">
+                                    <svg
+                                        class="c2npy cui34 ckyke cca3l"
+                                        viewBox="0 0 16 16"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            class="c4u31 text-teal-200 cv8tj"
+                                            :class="category === '1' ? 'text-teal-200 cv8tj' : 'text-teal-500 c0atf'"
+                                            d="M5 16H4a4 4 0 01-4-4v-1h2v1a2 2 0 002 2h1v2zM13 10h-1.686l-1.207-1.207L14.37 4.63a2.121 2.121 0 00-3-3L7.207 5.793 5.99 4.576 5.98 3.02 3.038.079 0 3.117 3 6h1.586l1.207 1.207L4 9l3 3 1.793-1.793L10 11.414V13l3.01 3.01 2.98-2.979L13 10z"
+                                        ></path>
+                                    </svg>
+                                    <span>Getting Started</span>
+                                </li>
+                                <li>
+                                    <svg
+                                        class="c2npy cui34 ckyke cca3l"
+                                        viewBox="0 0 16 16"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            class="c4u31 text-teal-500 c0atf"
+                                            :class="category === '2' ? 'text-teal-200 cv8tj' : 'text-teal-500 c0atf'"
+                                            d="M8 3l4 4H4zM8 13L4 9h8zM1 0h14v2H1zM1 14h14v2H1z"
+                                        ></path>
+                                    </svg>
+                                    <span>Collection list</span>
+                                </li>
+                                <li>
+                                    <svg
+                                        class="c2npy cui34 ckyke cca3l"
+                                        viewBox="0 0 16 16"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            class="c4u31 text-teal-500 c0atf"
+                                            :class="category === '3' ? 'text-teal-200 cv8tj' : 'text-teal-500 c0atf'"
+                                            d="M6 0H1a1 1 0 00-1 1v5a1 1 0 001 1h5a1 1 0 001-1V1a1 1 0 00-1-1zM5 5H2V2h3v3zM15 9h-5a1 1 0 00-1 1v5a1 1 0 001 1h5a1 1 0 001-1v-5a1 1 0 00-1-1zm-1 5h-3v-3h3v3zM6 9H1a1 1 0 00-1 1v5a1 1 0 001 1h5a1 1 0 001-1v-5a1 1 0 00-1-1zm-1 5H2v-3h3v3zM12.5 7a1 1 0 01-.707-.293l-2.5-2.5a1 1 0 010-1.414l2.5-2.5a1 1 0 011.414 0l2.5 2.5a1 1 0 010 1.414l-2.5 2.5A1 1 0 0112.5 7z"
+                                        ></path>
+                                    </svg>
+                                    <span>Element Hierarchy</span>
+                                </li>
+                                <li>
+                                    <svg
+                                        class="c2npy cui34 ckyke cca3l"
+                                        viewBox="0 0 16 16"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            class="c4u31 text-teal-500 c0atf"
+                                            :class="category === '4' ? 'text-teal-200 cv8tj' : 'text-teal-500 c0atf'"
+                                            d="M15.4.6c-.84-.8-2.16-.8-3 0L8.7 4.3c.73.252 1.388.68 1.916 1.244.469.515.83 1.119 1.065 1.775L15.4 3.6c.8-.84.8-2.16 0-3zM4.937 6.9c-1.2 1.2-1.4 5.7-1.4 5.7s4.4-.4 5.6-1.5a2.987 2.987 0 000-4.2 2.9 2.9 0 00-4.2 0z"
+                                        ></path>
+                                    </svg>
+                                    <span>Styling Basics</span>
+                                </li>
+                                <li>
+                                    <svg
+                                        class="c2npy cui34 ckyke cca3l"
+                                        viewBox="0 0 16 16"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            class="c4u31 text-teal-500 c0atf"
+                                            :class="category === '5' ? 'text-teal-200 cv8tj' : 'text-teal-500 c0atf'"
+                                            d="M11 16v-5h5V0H5v5H0v11h11zM2 7h7v7H2V7z"
+                                        ></path>
+                                    </svg>
+                                    <span>Image Field</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="section-2__bottom-right flex">
+                            <div class="section-2__bottom-right-item">
+                                <img
+                                    src="https://preview.cruip.com/appy/images/video-thumb.jpg"
+                                    alt=""
+                                />
+                                <div
+                                    class="section-2__bottom-right-item-overlay"
+                                >
+                                    <span>Using index pages</span>
+                                    <span>2 Min</span>
+                                </div>
+                            </div>
+                            <div class="section-2__bottom-right-item">
+                                <img
+                                    src="https://preview.cruip.com/appy/images/video-thumb.jpg"
+                                    alt=""
+                                />
+                                <div
+                                    class="section-2__bottom-right-item-overlay"
+                                >
+                                    <span>Using index pages</span>
+                                    <span>2 Min</span>
+                                </div>
+                            </div>
+                            <div class="section-2__bottom-right-item">
+                                <img
+                                    src="https://preview.cruip.com/appy/images/video-thumb.jpg"
+                                    alt=""
+                                />
+                                <div
+                                    class="section-2__bottom-right-item-overlay"
+                                >
+                                    <span>Using index pages</span>
+                                    <span>2 Min</span>
+                                </div>
+                            </div>
+                            <div class="section-2__bottom-right-item">
+                                <img
+                                    src="https://preview.cruip.com/appy/images/video-thumb.jpg"
+                                    alt=""
+                                />
+                                <div
+                                    class="section-2__bottom-right-item-overlay"
+                                >
+                                    <span>Using index pages</span>
+                                    <span>2 Min</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <div class="wrapper">
+                <div class="container">
+                    <div class="separator"></div>
+                </div>
+            </div>
+
+            <section id="section-3" class="wrapper">
+                <div class="container">
+                    <div class="section-title">
+                        <div class="section-title__container">
+                            <h2>Build and style every element to perfection</h2>
+                            <p>
+                                Duis aute irure dolor in reprehenderit in
+                                voluptate velit esse cillum dolore eu fugiat
+                                nulla pariatur excepteur sint occaecat
+                                cupidatat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section-3__bottom">
+                        <div class="section-3__bottom-numbers">
+                            <div class="section-3__bottom-numbers-circle">
+                                <span>1</span>
+                            </div>
+                            <div class="section-3__bottom-numbers-circle">
+                                <span>2</span>
+                            </div>
+                            <div class="section-3__bottom-numbers-circle">
+                                <span>3</span>
+                            </div>
+                        </div>
+                        <div class="section-3__bottom-images">
+                            <div class="section-3__bottom-images-img">
+                                <img
+                                    class="int"
+                                    src="https://preview.cruip.com/appy/images/mockup-image-03.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="ext"
+                                    src="https://preview.cruip.com/appy/images/iphone-mockup.png"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="section-3__bottom-images-img">
+                                <img
+                                    class="int"
+                                    src="https://preview.cruip.com/appy/images/mockup-image-02.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="ext"
+                                    src="https://preview.cruip.com/appy/images/iphone-mockup.png"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="section-3__bottom-images-img">
+                                <img
+                                    class="int"
+                                    src="https://preview.cruip.com/appy/images/mockup-image-04.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="ext"
+                                    src="https://preview.cruip.com/appy/images/iphone-mockup.png"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="section-4" class="wrapper">
+                <div class="container">
+                    <div class="section-4__top">
+                        <h3>
+                            Start building for free, then add a plan to go live
+                        </h3>
+                        <p>
+                            Excepteur sint occaecat cupidatat non proident, sunt
+                            in culpa qui officia deserunt mollit laborum —
+                            semper quis lectus nulla.
+                        </p>
+                    </div>
+                    <div class="section-4__bottom">
+                        <div class="card-list">
+                            <h5>All plans include:</h5>
+                            <ul>
+                                <li>Unlimited domains</li>
+                                <li>Unlimited web pages</li>
+                                <li>Conversion analytics</li>
+                                <li>A/B testing</li>
+                                <li>Exclusive channels</li>
+                                <li>Free resources</li>
+                                <li>Landing page builder</li>
+                                <li>Smart forms and reports</li>
+                            </ul>
+                            <img
+                                src="https://img.freepik.com/premium-photo/smooth-handdrawn-arrow-with-flowing-lines-curved-edges-black-marker-white-background-minimalist-design-handrawn-arrow-with-black-marker_1069077-11164.jpg"
+                                alt=""
+                                width="65px"
+                                height="45px"
+                            />
+                        </div>
+                        <div class="card-price">
+                            <div class="card-price__body">
+                                <h4>Yearly -40%</h4>
+                                <p>$27/billed yearly</p>
+                                <p>
+                                    — Lorem ipsum dolor amet sit consect
+                                    adipiscing.
+                                </p>
+                            </div>
+                            <div class="card-price__footer">
+                                <button>Go Premium</button>
+                            </div>
+                        </div>
+                        <div class="card-price">
+                            <div class="card-price__body">
+                                <h4>Monthly</h4>
+                                <p>$47/billed yearly</p>
+                                <p>
+                                    — Lorem ipsum dolor amet sit consect
+                                    adipiscing.
+                                </p>
+                            </div>
+                            <div class="card-price__footer">
+                                <button>Go Premium</button>
+                            </div>
+                        </div>
+                        <div class="card-price">
+                            <div class="card-price__body">
+                                <h4>Lifetime</h4>
+                                <p>$127/one-time</p>
+                                <p>
+                                    — Lorem ipsum dolor amet sit consect
+                                    adipiscing.
+                                </p>
+                            </div>
+                            <div class="card-price__footer">
+                                <button>Go Premium</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--END PASQUALINO-->
+            <!--REDI-->
+
+            <!--sezione5-->
+            <section id="section-5" class="wrapper">
+                <div class="container 1">
+                    <div class="card__top">
+                        <div class="card-review card__top-left">
+                            <div class="card-review__header">
+                                <img
+                                    src="https://preview.cruip.com/appy/images/testimonial-01.jpg"
+                                    alt="Ragazzo che sorride"
+                                />
+                            </div>
+                            <div class="card-review__body">
+                                <p>
+                                    This is a great app and the value is
+                                    amazing. Since I purchased it I have been
+                                    using it everyday! Highly recommend it.
+                                </p>
+                                <p>—Andy Croll, <a href="link">Appy.com</a></p>
+                            </div>
+                        </div>
+                        <div class="card-review card__top-right">
+                            <div class="card-review__header">
+                                <img
+                                    src="https://preview.cruip.com/appy/images/testimonial-02.jpg"
+                                    alt="Ragazza sorridente"
+                                />
+                            </div>
+                            <div class="card-review__body">
+                                <p>
+                                    This is a great app and the value is
+                                    amazing. Since I purchased it I have been
+                                    using it everyday! Highly recommend it.
+                                </p>
+                                <p>
+                                    —Patricia Lepisov,
+                                    <a href="link">Nobi Bank</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__bottom">
+                        <div class="card-review card__bottom-left">
+                            <div class="card-review__header">
+                                <img
+                                    src="https://preview.cruip.com/appy/images/testimonial-03.jpg"
+                                    alt="Ragazza di profilo"
+                                />
+                            </div>
+                            <div class="card-review__body">
+                                <p>
+                                    This is a great app and the value is
+                                    amazing. Since I purchased it I have been
+                                    using it everyday! Highly recommend it.
+                                </p>
+                                <p>—Zhenya Ritz, <a href="link">Sync</a></p>
+                            </div>
+                        </div>
+                        <div class="card-review card__bottom-right">
+                            <div class="card-review__header">
+                                <img
+                                    src="https://preview.cruip.com/appy/images/testimonial-04.jpg"
+                                    alt="Ragazza mora"
+                                />
+                            </div>
+                            <div class="card-review__body">
+                                <p>
+                                    This is a great app and the value is
+                                    amazing. Since I purchased it I have been
+                                    using it everyday! Highly recommend it.
+                                </p>
+                                <p>—Lisa Champ, <a href="link">Appicu</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--sezione6-->
+            <section id="section-6" class="wrapper">
+                <div class="container">
+                    <div class="section-6__top">
+                        <h3>Put clarity at the center of your website</h3>
+                    </div>
+                    <div class="section-6__bottom">
+                        <div class="card-info">
+                            <div class="card-info__header">
+                                <svg
+                                    class="cyws0 csz25 cchtt"
+                                    viewBox="0 0 32 32"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    height="20"
+                                >
+                                    <path
+                                        class="c4u31"
+                                        d="M19 18.414l-4 4L9.586 17l.707-.707L12 14.586V8.414l-5-5L4.414 6l6.293 6.293-1.414 1.414L1.586 6 7 .586l7 7v5l8.463-8.463a3.828 3.828 0 115.414 5.414L21 16.414v6.172l5 5L28.586 25l-6.293-6.293 1.414-1.414L31.414 25 26 30.414l-7-7v-5zm-4 1.172L26.463 8.123a1.828 1.828 0 10-2.586-2.586L12.414 17 15 19.586zM11 30v2C4.925 32 0 27.075 0 21h2a9 9 0 009 9zm0-5v2a6 6 0 01-6-6h2a4 4 0 004 4z"
+                                        fill-rule="nonzero"
+                                    ></path>
+                                </svg>
+                            </div>
+                            <div class="card-info__body">
+                                <h4>Simpler sharing</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing.
+                                </p>
+                            </div>
+                            <div class="card-info__footer">
+                                <a href="#">
+                                    <svg
+                                        class="ca6it crgjb clq5w ccb29 ceo83 cgdju c1xg5 cr68y cj7c4"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="20"
+                                        height="20"
+                                    >
+                                        <path
+                                            class="c4u31"
+                                            d="M13 11V5.057L22.72 12 13 18.943V13H2v-2h11zm2 4.057L19.28 12 15 8.943v6.114z"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <div class="card-info__header">
+                                <svg
+                                    class="cyws0 csz25 cchtt"
+                                    viewBox="0 0 32 32"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    height="20"
+                                >
+                                    <path
+                                        class="c4u31"
+                                        d="M19 18.414l-4 4L9.586 17l.707-.707L12 14.586V8.414l-5-5L4.414 6l6.293 6.293-1.414 1.414L1.586 6 7 .586l7 7v5l8.463-8.463a3.828 3.828 0 115.414 5.414L21 16.414v6.172l5 5L28.586 25l-6.293-6.293 1.414-1.414L31.414 25 26 30.414l-7-7v-5zm-4 1.172L26.463 8.123a1.828 1.828 0 10-2.586-2.586L12.414 17 15 19.586zM11 30v2C4.925 32 0 27.075 0 21h2a9 9 0 009 9zm0-5v2a6 6 0 01-6-6h2a4 4 0 004 4z"
+                                        fill-rule="nonzero"
+                                    ></path>
+                                </svg>
+                            </div>
+                            <div class="card-info__body">
+                                <h4>Simpler sharing</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing.
+                                </p>
+                            </div>
+                            <div class="card-info__footer">
+                                <a href="#">
+                                    <svg
+                                        class="ca6it crgjb clq5w ccb29 ceo83 cgdju c1xg5 cr68y cj7c4"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="20"
+                                        height="20"
+                                    >
+                                        <path
+                                            class="c4u31"
+                                            d="M13 11V5.057L22.72 12 13 18.943V13H2v-2h11zm2 4.057L19.28 12 15 8.943v6.114z"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <div class="card-info__header">
+                                <svg
+                                    class="cyws0 csz25 cchtt"
+                                    viewBox="0 0 32 32"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    height="20"
+                                >
+                                    <path
+                                        class="c4u31"
+                                        d="M19 18.414l-4 4L9.586 17l.707-.707L12 14.586V8.414l-5-5L4.414 6l6.293 6.293-1.414 1.414L1.586 6 7 .586l7 7v5l8.463-8.463a3.828 3.828 0 115.414 5.414L21 16.414v6.172l5 5L28.586 25l-6.293-6.293 1.414-1.414L31.414 25 26 30.414l-7-7v-5zm-4 1.172L26.463 8.123a1.828 1.828 0 10-2.586-2.586L12.414 17 15 19.586zM11 30v2C4.925 32 0 27.075 0 21h2a9 9 0 009 9zm0-5v2a6 6 0 01-6-6h2a4 4 0 004 4z"
+                                        fill-rule="nonzero"
+                                    ></path>
+                                </svg>
+                            </div>
+                            <div class="card-info__body">
+                                <h4>Simpler sharing</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing.
+                                </p>
+                            </div>
+                            <div class="card-info__footer">
+                                <a href="#">
+                                    <svg
+                                        class="ca6it crgjb clq5w ccb29 ceo83 cgdju c1xg5 cr68y cj7c4"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="20"
+                                        height="20"
+                                    >
+                                        <path
+                                            class="c4u31"
+                                            d="M13 11V5.057L22.72 12 13 18.943V13H2v-2h11zm2 4.057L19.28 12 15 8.943v6.114z"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <div class="card-info__header">
+                                <svg
+                                    class="cyws0 csz25 cchtt"
+                                    viewBox="0 0 32 32"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    height="20"
+                                >
+                                    <path
+                                        class="c4u31"
+                                        d="M19 18.414l-4 4L9.586 17l.707-.707L12 14.586V8.414l-5-5L4.414 6l6.293 6.293-1.414 1.414L1.586 6 7 .586l7 7v5l8.463-8.463a3.828 3.828 0 115.414 5.414L21 16.414v6.172l5 5L28.586 25l-6.293-6.293 1.414-1.414L31.414 25 26 30.414l-7-7v-5zm-4 1.172L26.463 8.123a1.828 1.828 0 10-2.586-2.586L12.414 17 15 19.586zM11 30v2C4.925 32 0 27.075 0 21h2a9 9 0 009 9zm0-5v2a6 6 0 01-6-6h2a4 4 0 004 4z"
+                                        fill-rule="nonzero"
+                                    ></path>
+                                </svg>
+                            </div>
+                            <div class="card-info__body">
+                                <h4>Simpler sharing</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing.
+                                </p>
+                            </div>
+                            <div class="card-info__footer">
+                                <a href="#">
+                                    <svg
+                                        class="ca6it crgjb clq5w ccb29 ceo83 cgdju c1xg5 cr68y cj7c4"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="20"
+                                        height="20"
+                                    >
+                                        <path
+                                            class="c4u31"
+                                            d="M13 11V5.057L22.72 12 13 18.943V13H2v-2h11zm2 4.057L19.28 12 15 8.943v6.114z"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--sezione banner-->
+            <section id="section-7" class="wrapper">
+                <div class="container">
+                    <div class="banner">
+                        <div class="banner__left">
+                            <h3 class="cta-title">
+                                Free until you're ready to launch
+                            </h3>
+                        </div>
+                        <div class="banner__right">
+                            <form action="" method="get">
+                                <input type="tel" placeholder="Phone number" />
+                                <button type="submit">Request code</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!--sezione footer-->
+        <footer class="wrapper">
+            <div class="container">
+                <div class="footer__top">
+                    <div class="footer__top-left">
+                        <svg
+                            class="csz25 cchtt"
+                            viewBox="0 0 32 32"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <defs>
+                                <linearGradient
+                                    x1="26%"
+                                    y1="100%"
+                                    x2="100%"
+                                    y2="100%"
+                                    id="flogo_a"
+                                >
+                                    <stop
+                                        stop-color="#3ABAB4"
+                                        offset="0%"
+                                    ></stop>
+                                    <stop
+                                        stop-color="#7F9CF5"
+                                        offset="100%"
+                                    ></stop>
+                                </linearGradient>
+                                <linearGradient
+                                    x1="26%"
+                                    y1="100%"
+                                    x2="100%"
+                                    y2="100%"
+                                    id="flogo_b"
+                                >
+                                    <stop
+                                        stop-color="#3ABAB4"
+                                        offset="0%"
+                                    ></stop>
+                                    <stop
+                                        stop-color="#3ABAB4"
+                                        stop-opacity="0"
+                                        offset="100%"
+                                    ></stop>
+                                </linearGradient>
+                            </defs>
+                            <path
+                                d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z"
+                                fill="url(#flogo_a)"
+                            ></path>
+                            <path
+                                d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z"
+                                fill="url(#flogo_b)"
+                            ></path>
+                        </svg>
+                    </div>
+                    <div class="footer__top-right">
+                        <div class="footer__top-right-col">
+                            <h6>PRODUCTS</h6>
+                            <ul>
+                                <li>
+                                    <a href="#">Drag And Drop</a>
+                                </li>
+                                <li>
+                                    <a href="#">Visual Studio X</a>
+                                </li>
+                                <li>
+                                    <a href="#">Easy Content</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__top-right-col">
+                            <h6>RESOURCES</h6>
+                            <ul>
+                                <li>
+                                    <a href="#">Industries and tools</a>
+                                </li>
+                                <li>
+                                    <a href="#">Use cases</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#">Online events</a>
+                                </li>
+                                <li>
+                                    <a href="#">Nostrud exercitation</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__top-right-col">
+                            <h6>COMPANY</h6>
+                            <ul>
+                                <li>
+                                    <a href="#">Diversity & inclusion</a>
+                                </li>
+                                <li>
+                                    <a href="#">About us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Press</a>
+                                </li>
+                                <li>
+                                    <a href="#">Customer stories</a>
+                                </li>
+                                <li>
+                                    <a href="#">Online communities</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__top-right-col">
+                            <h6>SUPPORT</h6>
+                            <ul>
+                                <li>
+                                    <a href="#">Documentation</a>
+                                </li>
+                                <li>
+                                    <a href="#">Tutorials & guides</a>
+                                </li>
+                                <li>
+                                    <a href="#">Webinars</a>
+                                </li>
+                                <li>
+                                    <a href="#">Open-source</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="footer__bottom-left">
+                        <p>© Cruip.com. All rights reserved.</p>
+                    </div>
+                    <div class="footer__bottom-center">
+                        <a href="#0">Terms</a>
+                        <a href="#0">Privacy Policy</a>
+                    </div>
+                    <div class="footer__bottom-right">
+                        <a href="link">
+                            <svg xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="m13.063 9 3.495 4.475L20.601 9h2.454l-5.359 5.931L24 23h-4.938l-3.866-4.893L10.771 23H8.316l5.735-6.342L8 9h5.063Zm-.74 1.347h-1.457l8.875 11.232h1.36l-8.778-11.232Z"
+                                ></path>
+                            </svg>
+                        </a>
+                        <a href="link">
+                            <svg xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16 8.2c-4.4 0-8 3.6-8 8 0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4V22c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.3 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6-.2 1.3-.3 2-.3s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.7-3.7 3.9.3.4.6.9.6 1.6v2.2c0 .2.1.5.6.4 3.2-1.1 5.5-4.1 5.5-7.6-.1-4.4-3.7-8-8.1-8z"
+                                ></path>
+                            </svg>
+                        </a>
+                        <a href="link">
+                            <svg xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.023 24L14 17h-3v-3h3v-2c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V14H21l-1 3h-2.72v7h-3.257z"
+                                ></path>
+                            </svg>
+                        </a>
+                        <a href="link">
+                            <svg xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20.145" cy="11.892" r="1"></circle>
+                                <path
+                                    d="M16 20c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4zm0-6c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2z"
+                                ></path>
+                                <path
+                                    d="M20 24h-8c-2.056 0-4-1.944-4-4v-8c0-2.056 1.944-4 4-4h8c2.056 0 4 1.944 4 4v8c0 2.056-1.944 4-4 4zm-8-14c-.935 0-2 1.065-2 2v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2v-8c0-.935-1.065-2-2-2h-8z"
+                                ></path>
+                            </svg>
+                        </a>
+                        <a href="link">
+                            <svg xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M23.3 8H8.7c-.4 0-.7.3-.7.7v14.7c0 .3.3.6.7.6h14.7c.4 0 .7-.3.7-.7V8.7c-.1-.4-.4-.7-.8-.7zM12.7 21.6h-2.3V14h2.4v7.6h-.1zM11.6 13c-.8 0-1.4-.7-1.4-1.4 0-.8.6-1.4 1.4-1.4.8 0 1.4.6 1.4 1.4-.1.7-.7 1.4-1.4 1.4zm10 8.6h-2.4v-3.7c0-.9 0-2-1.2-2s-1.4 1-1.4 2v3.8h-2.4V14h2.3v1c.3-.6 1.1-1.2 2.2-1.2 2.4 0 2.8 1.6 2.8 3.6v4.2h.1z"
+                                ></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--END REDI-->
+    </body>
 </html>
